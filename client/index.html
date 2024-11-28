@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-header">
+        <h1 class="title">Todo List</h1>
+      </div>
+
+      <div class="todo-form">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="What needs to be done?"
+          class="todo-input"
+        />
+        <button id="add-todo" class="todo-button">Add</button>
+      </div>
+
+      <div id="todo-list" class="todo-list">
+        <!-- Todo items will be dynamically added here -->
+      </div>
+
+      <div id="empty-state" class="empty-state">
+        No todos yet. Add some tasks above!
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
